@@ -97,7 +97,7 @@ Fungsi dari triger disini untuk menampilkan perubahan nama obat sebelum dan sete
 
 CREATE FUNCTION fn_totalUsers() RETURNS INT(11) UNSIGNED NOT DETERMINISTIC NO SQL SQL SECURITY DEFINER RETURN (SELECT COUNT(id_pasien) FROM pasien)
 
-![WhatsApp Image 2022-07-07 at 21 19 03](https://user-images.githubusercontent.com/101801920/177796378-b0fec77b-216a-4eab-aa84-94bfc9e91b15.jpeg)
+![WhatsApp Image 2022-07-07 at 22 51 07](https://user-images.githubusercontent.com/101801920/177817331-5b1cb3a4-c5d0-4e80-974e-af65290bc3f4.jpeg)
 
 7.Implementasi view 
 
@@ -107,4 +107,5 @@ CREATE VIEW viewPenyakit AS SELECT a.id_berobat, b.nama_pasien, b.jenis_kelamin,
 
 // END IMPLEMENTASI VIEW
 
-![WhatsApp Image 2022-07-07 at 21 21 22](https://user-images.githubusercontent.com/101801920/177796840-05c0f7c0-871d-4773-96e6-fd1e7fdd6b0a.jpeg)
+![WhatsApp Image 2022-07-07 at 22 53 31](https://user-images.githubusercontent.com/101801920/177817693-4cf1b8a8-ad33-4716-9603-49197ac52e1a.jpeg)
+
